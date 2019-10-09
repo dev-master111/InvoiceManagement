@@ -1,0 +1,117 @@
+.send-invoice-form {
+  display: flex;
+  flex-direction: column;
+
+  .form-header {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgba(72, 51, 78, 1.0);
+
+    .close-button {
+      cursor: pointer;
+    }
+
+    h3 {
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 0px;
+    }
+  }
+
+  .form-content {
+    padding: 10px;
+
+    .form-row {
+      border-bottom: 1px solid gray;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      flex-wrap: nowrap;
+
+      .row-title {
+        margin-top: 10px;
+        font-size: 12px;
+      }
+
+      .row-content {
+        padding: 10px;
+        width: 100%;
+        flex: 1;
+
+        .add-item {
+          text-align: left;
+          background: rgba(240, 240, 240, 1.0);
+          padding: 10px;
+        }
+      }
+
+      input {
+        padding-top: 10px;
+        width: 100%;
+        border: none;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    .select-recipient {
+      display: flex;
+      justify-content: space-between;
+
+      img {
+        height: 10px;
+        width: 16px;
+      }
+
+      .add {
+        cursor: pointer;
+      }
+    }
+
+    .dates {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .items {
+      min-height: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .actions {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 10px;
+
+      button {
+        width: 90px;
+        height: 40px;
+        background: #0179fe;
+        border-radius: 20px;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      .synv-via {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+  
+        input {
+          width: 20px;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+}

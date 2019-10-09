@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  flex-direction: column;
+
+  .main-wraper {
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: space-between;
+  
+    .content-wrapper {
+      flex: 1;
+      height: 100%;
+    }
+  }
+}
+
+.swal2-container .swal2-popup {
+  padding: 0;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

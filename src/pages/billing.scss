@@ -1,0 +1,59 @@
+.billing-page {
+  padding: 16px 40px;
+
+  .statics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title-bar {
+      padding: 10px 20px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(90,60,95,0.9));
+      color: white;
+      border-radius: 4px;
+
+      .main-title {
+        font-size: 16px;
+        font-weight: 600;
+      }
+      
+      .sub-title {
+        font-size: 13px;
+        font-weight: 600;
+      }
+    }
+
+    .statics-content {
+      display: flex;
+      flex-direction: column;
+      width: 600px;
+
+      p {
+        margin-bottom: 0px;
+      }
+
+      .content-section {
+        display: flex;
+        flex-direction: column;
+        padding: 24px 0px;
+        border-bottom: 1px solid rgba(230, 230, 230, 1.0);
+
+        .section-title {
+          display: flex;
+          justify-content: center;
+          font-size: 14px;
+          font-weight: 500;
+        }
+
+        .status-box {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
